@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+/* header h1{font-size: 10px;} */
+h1{
+    position: absolute;
+    left: -999px;
+}
+li{list-style: none;}
+
+header>.wrap{
+    border:1px solid red;
+    /* 자식들을 배치하는 블럭을 설정 */
+    display: flex;
+    flex-direction: row;
+}
+
+#gnb > .wrap > ul{
+    display: flex;
+}
+
+#user > .wrap{
+    display: flex;
+}
